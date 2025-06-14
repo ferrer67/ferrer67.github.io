@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://portfolio.test/contacto -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio - sferrer</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.bunny.net/">
+    <link href="./contacto_files/css" rel="stylesheet">
+    <link rel="preload" as="style" href="./contacto_files/app-C3_OfNOB.css"><link rel="modulepreload" href="./contacto_files/app-T1DpEqax.js.descarga"><link rel="stylesheet" href="./contacto_files/app-C3_OfNOB.css"><script type="module" src="./contacto_files/app-T1DpEqax.js.descarga"></script>
+</head>
+<body class="bg-gradient-to-tl from-gray-800 to-gray-600 text-white mb-10">
+<div>
+    <nav class="bg-gray-900 py-4 px-4 flex justify-center items-center relative">
+        <!-- Menú escritorio -->
+            <div class="hidden md:flex text-white">
+                <div class=" active:bg-gray-500  rounded-md">
+    <div class="navItem border-r-1 border-l-1">
+        <a class=" flex relative p-1 m-1 font-bold text-white  transition-all duration-800 hover:bg-gray-700 hover:rounded-md " href="https://ferrer67.github.io/">
+            Inicio
+        </a>
+    </div>
+</div>
+
+
+                <div class=" active:bg-gray-500  rounded-md">
+    <div class="navItem  border-r-1 ">
+        <a class=" flex relative p-1 m-1 font-bold text-white  transition-all duration-800 hover:bg-gray-700 hover:rounded-md " href="https://github.com/ferrer67/">
+            Github
+        </a>
+    </div>
+</div>
+
+
+                <div class=" active:bg-gray-500  rounded-md">
+    <div class="navItem  border-r-1 ">
+        <a class=" flex relative p-1 m-1 font-bold text-white  transition-all duration-800 hover:bg-gray-700 hover:rounded-md " href="https://www.linkedin.com/in/sergi-ferrer-sala-9a21a2277/">
+            LinkedIn
+        </a>
+    </div>
+</div>
+
+
+                <div class=" active:bg-gray-500  rounded-md">
+    <div class="navItem  border-r-1 ">
+        <a class=" flex relative p-1 m-1 font-bold text-white  transition-all duration-800 hover:bg-gray-700 hover:rounded-md " href="https://ferrer67.github.io/contacto">
+            Contacto
+        </a>
+    </div>
+</div>
+
+
+            </div>
+        <!-- Botón hamburguesa (solo en móvil) -->
+        <button id="menu-toggle" class="text-white md:hidden ml-auto z-30 active:scale-90">
+            <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+
+        <!-- Panel lateral móvil (oculto por defecto) -->
+        <div id="mobile-menu" class="fixed top-1 right-0 h-auto w-64 bg-gray-700 shadow-lg transform translate-x-full opacity-0 transition-all duration-300 ease-in-out md:hidden p-2 z-20 flex flex-col  space-y-4 rounded-md">
+            <div class=" active:bg-gray-500  rounded-md">
+    <div class="navItem  border-r-1 ">
+        <a class=" flex relative p-1 m-1 font-bold text-white  transition-all duration-800 hover:bg-gray-700 hover:rounded-md " href="http://portfolio.test/">
+            Inicio
+        </a>
+    </div>
+</div>
+
+
+            <div class=" active:bg-gray-500  rounded-md">
+    <div class="navItem  border-r-1 ">
+        <a class=" flex relative p-1 m-1 font-bold text-white  transition-all duration-800 hover:bg-gray-700 hover:rounded-md " href="https://github.com/ferrer67/">
+            Github
+        </a>
+    </div>
+</div>
+
+
+            <div class=" active:bg-gray-500  rounded-md">
+    <div class="navItem  border-r-1 ">
+        <a class=" flex relative p-1 m-1 font-bold text-white  transition-all duration-800 hover:bg-gray-700 hover:rounded-md " href="https://www.linkedin.com/in/sergi-ferrer-sala-9a21a2277/">
+            LinkedIn
+        </a>
+    </div>
+</div>
+
+
+            <div class=" active:bg-gray-500  rounded-md">
+    <div class="navItem  border-r-1 ">
+        <a class=" flex relative p-1 m-1 font-bold text-white  transition-all duration-800 hover:bg-gray-700 hover:rounded-md " href="http://portfolio.test/contacto">
+            Contacto
+        </a>
+    </div>
+</div>
+
+
+        </div>
+    </nav>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggleButton = document.getElementById('menu-toggle');
+            const menu = document.getElementById('mobile-menu');
+
+            toggleButton.addEventListener('click', () => {
+                const isOpen = menu.classList.contains('translate-x-0');
+                menu.classList.toggle('translate-x-full', isOpen);
+                menu.classList.toggle('translate-x-0', !isOpen);
+                menu.classList.toggle('opacity-0', isOpen);
+                menu.classList.toggle('opacity-100', !isOpen);
+            });
+        });
+    </script>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const items = document.querySelectorAll('.navItem');
+            if (items.length) {
+                items[0].classList.add('border-l-1');
+            }
+        });
+    </script>
+
+
+    <main class="mx-auto mt-10 min-h-screen">
+        <h1 class="mb-4 text-center text-3xl font-extrabold">Contacta conmigo</h1>
+
+
+
+    <div class="p-2 mx-auto max-w-5xl bg-slate-800 rounded-2xl mb-8">
+        <div class="p-4 mb-6 border-b-1">
+            <p>Rellena este formulario para enviarme un email.</p>
+        </div>
+        <div>
+            <form action="https://formsubmit.co/sferrersala@gmail.com" method="POST" class="space-y-4">
+                <!--Honeypot anti-bots -->
+                <input type="text" name="_honey" style="display: none">
+
+                <!-- Anti-spam (opcional) -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <!-- Redirección después de enviar -->
+                <input type="hidden" name="_next" value="https://ferrer67.github.io/index.html">
+
+                <div>
+                    <label for="email" class="block font-semibold">Tu correo:</label>
+                    <input type="email" name="email" required="" class="w-full border px-3 py-2 rounded" placeholder="name@email.com">
+                </div>
+
+                <div>
+                    <label for="subject" class="block font-semibold">Asunto:</label>
+                    <input type="text" name="subject" id="subject" required="" class="w-full border px-3 py-2 rounded">
+                </div>
+
+                <div>
+                    <label for="message" class="block font-semibold">Mensaje:</label>
+                    <textarea name="message" required="" class="w-full border px-3 py-2 rounded"></textarea>
+                </div>
+
+                <div class="flex justify-end">
+                    <button type="submit" class="bg-blue-800 text-white px-4 py-2 rounded hover:bg-blue-700 transition cursor-pointer">
+                        Enviar
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    </main>
+</div>
+
+
+</body></html>
